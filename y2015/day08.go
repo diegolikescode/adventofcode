@@ -2,16 +2,7 @@ package y2015
 
 import (
 	"fmt"
-	"strconv"
 )
-
-func unquoteString(s string) string {
-	unq, err := strconv.Unquote(s)
-	if err != nil {
-		panic(err)
-	}
-	return unq
-}
 
 /*
 ========== the C character is an ansii char ==========
