@@ -21,7 +21,7 @@ func str2int(s string) int {
 	return n
 }
 
-func (m SharedType) Day01_A(testFile string) {
+func (m SharedType) Day03_A(testFile string) {
 	lines := m.ReadFileLines(testFile)
 
 	count := 0
@@ -63,7 +63,7 @@ func newEmptyMatrix() [][]int {
 	return m
 }
 
-func (m SharedType) Day01_B(testFile string) {
+func (m SharedType) Day03_B(testFile string) {
 	lines := m.ReadFileLines(testFile)
 
 	count := 0

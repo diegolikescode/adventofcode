@@ -32,7 +32,7 @@ func main() {
 	var y any
 	switch date[0]{
 	case "2015":
-		y= y2015.SharedType{}
+		y = y2015.SharedType{}
 
 	case "2016":
 		y = y2016.SharedType{}

@@ -28,3 +28,7 @@ func (s *SharedType) ReadFileLines(filename string) []string {
 	}
 	return splitted
 }
+
+func (s *SharedType) IsNumber(r rune) bool {
+	return r >= '0' && r <= '9'
+}
